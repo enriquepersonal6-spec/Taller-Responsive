@@ -304,6 +304,16 @@ h1 {
     color: #39316f;
 }
 
+
+.tabla-contenedor {
+    overflow-x: auto;
+}
+
+.tabla-contenedor:focus-visible {
+    outline: 3px solid #5143c7;
+    outline-offset: 3px;
+}
+
 .proyecto {
     margin: 0 clamp(1.25rem, 5vw, 4.5rem) clamp(4rem, 7vw, 5rem);
     padding: clamp(1.75rem, 4vw, 3rem);
