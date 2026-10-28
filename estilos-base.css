@@ -250,7 +250,6 @@ h1 {
 }
 
 .tarjeta>p:not(.categoria) {
-    min-height: 48px;
     color: #687186;
     line-height: 1.5;
 }
